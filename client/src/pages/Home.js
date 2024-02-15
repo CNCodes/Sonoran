@@ -17,7 +17,7 @@ const useCheckMobileScreen = () => {
     const handleWindowSizeChange = () => {
             setWidth(window.innerWidth);
     }
-
+   
     useEffect(() => {
         window.addEventListener('resize', handleWindowSizeChange);
         return () => {
@@ -29,12 +29,13 @@ const useCheckMobileScreen = () => {
 }
 
 const Home = () => {
+  
     return (
       <div>
         <Navbar/>
         <div>
           <ParallaxBanner
-            style={useCheckMobileScreen ? {height:"35vh", borderRadius:"5px"}:{height:"75vh", borderRadius:"5px"}}
+            style={useCheckMobileScreen ? {height:"55vh", borderRadius:"5px"}:{height:"75vh", borderRadius:"5px"}}
             layers={[
               { image: "https://www.compass.com/m/23cef20adc977b0ce9a21e729b55e85f3b68b4ad_img_0_96aa6/origin.jpg", speed: 50},
             ]}
@@ -47,7 +48,7 @@ const Home = () => {
           </ParallaxBanner>
           <br/>
           <div className="h-px mx-32 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500"></div><br/>
-          <div className="w-11/12 ml-24 lg:columns-2 sm:columns-1 sm:mb-15 justify-center">
+          <div className="w-11/12 mx-auto md:ml-24 lg:columns-2 sm:columns-1 sm:mb-15 justify-center">
           <h1 className="text-3xl lg:text-5xl text-left font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" style={{fontWeight:"bolder"}}>A Cut Above the Rest</h1>
               <p className="w-3/4 text-transparent text-left bg-clip-text bg-gradient-to-b from-indigo-800 via-purple-600 via-purple-500 to-orange-500" style={{fontWeight:"bolder"}}>Not all tile is set the same. And not all tile companies work the same. At Sonoran Sunset Tile, we strive to bring the best service possible to your home. Whether it’s complicated designs, speed of work, or quality of the final product, at Sonoran Sunset Tile we focus on making your experience the best possible. </p>
               
@@ -57,7 +58,7 @@ const Home = () => {
         <br/>
         <div className="h-px mx-32 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
         <br/>
-        <div id="ourWork" className="md:ml-12 md:columns-3 sm:columns-1 justify-center">
+        <div id="ourWork" className="md:ml-12 md:columns-3 columns-1  justify-center">
             <ImageCard
                 imageURL={Floor01}
                 title={"Floors"}
