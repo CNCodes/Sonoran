@@ -16,11 +16,14 @@ const ContactForm = () => {
             <h1 className="sm:text-3xl text-2xl font-small title-font mb-4 text-gray-900">
               Contact Us
             </h1>
+            <a href={"tel:5209909680"} className="sm:text-3xl text-4xl font-bold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 hover:from-indigo-500 hover:to-indigo-500">
+              520 977 8343
+            </a>
             <p className="lg:w-full mb-6 mx-auto leading-relaxed text-base text-md">
               Building a new home or remodeling your current one? Enter your informaiton below and we will get back to you as soon as possible.
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          {/*<div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
@@ -177,7 +180,7 @@ const ContactForm = () => {
                 </span>
               </div>
             </div>
-          </div>
+              </div>*/}
         </div>
       </section>
     </div>
