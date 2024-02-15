@@ -16,7 +16,7 @@ const ContactForm = () => {
             <h1 className="sm:text-3xl text-2xl font-small title-font mb-4 text-gray-900">
               Contact Us
             </h1>
-            <a href={"tel:5209909680"} className="sm:text-3xl text-4xl font-bold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 hover:from-indigo-500 hover:to-indigo-500">
+            <a href={"tel:5209778343"} className="sm:text-3xl text-4xl font-bold title-font mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 hover:from-indigo-500 hover:to-indigo-500">
               520 977 8343
             </a>
             <p className="lg:w-full mb-6 mx-auto leading-relaxed text-base text-md">
