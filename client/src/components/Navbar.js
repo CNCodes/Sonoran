@@ -9,7 +9,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-md font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-transparent bg-clip-text bg-gradient-to-b from-indigo-800 via-purple-600 via-purple-500 to-orange-500"
-              href="#pablo"
+              href="/"
             >
               Sonoran Sunset Tile
             </a>
