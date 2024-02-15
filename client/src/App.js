@@ -8,7 +8,7 @@ import Gallery from "./pages/Gallery.js";
 
 const App = () => {
  return (
-   <div>
+   <div className="overflow-hidden mx-auto relative items-center justify-between bg-slate-50 py-1">
     <ParallaxProvider>
     <Routes>
        <Route exact path="/" element={<Home />} />
