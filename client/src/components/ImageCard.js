@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const ImageCard = (props) => {
     const navigate = useNavigate();
     return (
-       <div className="max-w-sm h-1/4 rounded overflow-hidden shadow-lg bg-slate-50">
+       <div className="md:ax-w-sm h-1/4 rounded overflow-hidden shadow-lg bg-slate-50">
            <img className="w-full" src={props.imageURL} alt="Sunset in the mountains"/>
            <div className="px-6 py-4">
              <div className=" mb-2 font-bold text-xl">{props.title}</div>
