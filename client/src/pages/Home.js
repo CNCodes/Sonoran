@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, {useEffect, useState} from "react";
 import '../index.css'
 
 import Bathroom01 from "../assets/Bathroom_01.jpg"
@@ -10,13 +10,31 @@ import ImageCard from "../components/ImageCard.js"
 import Navbar from "../components/Navbar.js"
 import ContactForm from "../components/ContactForm.js"
 
+
+
+const useCheckMobileScreen = () => {
+    const [width, setWidth] = useState(window.innerWidth);
+    const handleWindowSizeChange = () => {
+            setWidth(window.innerWidth);
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+
+    return (width <= 768);
+}
+
 const Home = () => {
     return (
       <div>
         <Navbar/>
         <div>
           <ParallaxBanner
-            style={{height:"75vh", borderRadius:"5px"}}
+            style={useCheckMobileScreen ? {height:"35vh", borderRadius:"5px"}:{height:"75vh", borderRadius:"5px"}}
             layers={[
               { image: "https://www.compass.com/m/23cef20adc977b0ce9a21e729b55e85f3b68b4ad_img_0_96aa6/origin.jpg", speed: 50},
             ]}
