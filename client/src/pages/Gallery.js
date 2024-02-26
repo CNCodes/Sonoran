@@ -15,6 +15,23 @@ import Bathroom10 from "../assets/Bathroom_10.jpeg"
 import Bathroom11 from "../assets/Bathroom_11.jpeg"
 import Bathroom12 from "../assets/Bathroom_12.jpeg"
 import Bathroom13 from "../assets/Bathroom_13.jpeg"
+import Bathroom14 from "../assets/Bathroom_14.jpeg"
+import Bathroom15 from "../assets/Bathroom_15.jpeg"
+import Bathroom16 from "../assets/Bathroom_16.jpeg"
+import Bathroom17 from "../assets/Bathroom_17.jpeg"
+import Bathroom18 from "../assets/Bathroom_18.jpeg"
+import Bathroom19 from "../assets/Bathroom_19.jpeg"
+import Bathroom20 from "../assets/Bathroom_20.jpeg"
+import Bathroom21 from "../assets/Bathroom_21.jpeg"
+import Bathroom22 from "../assets/Bathroom_22.jpeg"
+import Bathroom23 from "../assets/Bathroom_23.jpeg"
+import Bathroom24 from "../assets/Bathroom_24.jpeg"
+import Bathroom25 from "../assets/Bathroom_25.jpeg"
+import Bathroom26 from "../assets/Bathroom_26.jpeg"
+import Bathroom27 from "../assets/Bathroom_27.jpeg"
+import Bathroom28 from "../assets/Bathroom_28.jpeg"
+import Bathroom29 from "../assets/Bathroom_29.jpeg"
+import Bathroom30 from "../assets/Bathroom_30.jpeg"
 
 
 import Kitchen01 from "../assets/Backsplash_01.jpg"
@@ -30,6 +47,11 @@ import Kitchen10 from "../assets/Kitchen_10.jpeg"
 import Kitchen11 from "../assets/Kitchen_11.jpeg"
 import Kitchen12 from "../assets/Kitchen_12.jpeg"
 import Kitchen13 from "../assets/Kitchen_13.jpeg"
+import Kitchen14 from "../assets/Kitchen_14.jpeg"
+import Kitchen15 from "../assets/Kitchen_15.jpeg"
+import Kitchen16 from "../assets/Kitchen_16.jpeg"
+import Kitchen17 from "../assets/Kitchen_17.jpeg"
+
 
 import Floor01 from "../assets/Floor_01.jpg"
 import Floor02 from "../assets/Floor_02.jpeg"
@@ -44,6 +66,8 @@ import Floor10 from "../assets/Floor_10.jpeg"
 import Floor11 from "../assets/Floor_11.jpeg"
 import Floor12 from "../assets/Floor_12.jpeg"
 import Floor13 from "../assets/Floor_13.jpeg"
+import Floor14 from "../assets/Floor_14.jpeg"
+import Floor15 from "../assets/Floor_15.jpeg"
 
 import Navbar from "../components/Navbar.js"
 import ContactForm from "../components/ContactForm.js"
@@ -103,6 +127,14 @@ const floors = [
     original: Floor13,
     thumbnail: Floor13,
   },
+  {
+    original: Floor14,
+    thumbnail: Floor14,
+  },
+  {
+    original: Floor15,
+    thumbnail: Floor15,
+  }
 ];
 
 const kitchens = [
@@ -158,6 +190,22 @@ const kitchens = [
       original: Kitchen13,
       thumbnail: Kitchen13,
     },
+    {
+      original: Kitchen14,
+      thumbnail: Kitchen14,
+    },
+    {
+      original: Kitchen15,
+      thumbnail: Kitchen15,
+    },
+    {
+      original: Kitchen16,
+      thumbnail: Kitchen16,
+    },
+    {
+      original: Kitchen17,
+      thumbnail: Kitchen17,
+    }
 
   ];
 
@@ -214,6 +262,74 @@ const kitchens = [
       original: Bathroom13,
       thumbnail: Bathroom13,
     },
+    {
+      original: Bathroom14,
+      thumbnail: Bathroom14,
+    },
+    {
+      original: Bathroom15,
+      thumbnail: Bathroom15,
+    },
+    {
+      original: Bathroom16,
+      thumbnail: Bathroom16,
+    },
+    {
+      original: Bathroom17,
+      thumbnail: Bathroom17,
+    },
+    {
+      original: Bathroom18,
+      thumbnail: Bathroom18,
+    },
+    {
+      original: Bathroom19,
+      thumbnail: Bathroom19,
+    },
+    {
+      original: Bathroom20,
+      thumbnail: Bathroom20,
+    },
+    {
+      original: Bathroom21,
+      thumbnail: Bathroom21,
+    },
+    {
+      original: Bathroom22,
+      thumbnail: Bathroom22,
+    },
+    {
+      original: Bathroom23,
+      thumbnail: Bathroom23,
+    },
+    {
+      original: Bathroom24,
+      thumbnail: Bathroom24,
+    },
+    {
+      original: Bathroom25,
+      thumbnail: Bathroom25,
+    },
+    {
+      original: Bathroom26,
+      thumbnail: Bathroom26,
+    },
+    {
+      original: Bathroom27,
+      thumbnail: Bathroom27,
+    },
+    {
+      original: Bathroom28,
+      thumbnail: Bathroom28,
+    },
+    {
+      original: Bathroom29,
+      thumbnail: Bathroom29,
+    },
+    {
+      original: Bathroom30,
+      thumbnail: Bathroom30,
+    }
   ];
 
 const Gallery = () => {
