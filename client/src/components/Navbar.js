@@ -1,7 +1,8 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const navigate = useNavigate();
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between bg-slate-50 py-1">
@@ -9,7 +10,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-md font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-transparent bg-clip-text bg-gradient-to-b from-indigo-800 via-purple-600 via-purple-500 to-orange-500"
-              href="/"
+              href="#pablo"
             >
               Sonoran Sunset Tile
             </a>
@@ -39,9 +40,12 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-b from-indigo-800 via-purple-600 via-purple-500 to-orange-500 hover:opacity-75"
-                  href="/gallery"
-                >
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-transparent bg-clip-text bg-gradient-to-b from-indigo-800 via-purple-600 via-purple-500 to-orange-500 hover:opacity-75" 
+                  onClick={() => {
+                    navigate(
+                       "/gallery",{ state: "Floors" }
+                    )}}
+                  >
                   <i className="fab fa-twitter text-lg leading-lg text-black opacity-75"></i><span className="ml-2">Our Work</span>
                 </a>
               </li>
